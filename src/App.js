@@ -5,6 +5,7 @@ import './App.css';
 // ----------------------------------- Component Import ------------------------------------
 // -----------------------------------------------------------------------------------------
 import RecursiveComponent from './components/RecursiveComponent';
+import SecondTest from './components/SecondTest';
 
 // -----------------------------------------------------------------------------------------
 // ----------------------------------------- Data ------------------------------------------
@@ -16,6 +17,7 @@ class App extends Component {
     return (
       <div>
         <RecursiveComponent testData={testData} />
+        <SecondTest />
       </div>
     );
   }
